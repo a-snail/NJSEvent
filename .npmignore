@@ -1,0 +1,11 @@
+# OS X
+.DS_Store
+
+# Git
+.git*
+
+# IDE
+.idea
+
+# Test
+test/
