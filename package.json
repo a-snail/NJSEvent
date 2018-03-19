@@ -1,0 +1,40 @@
+{
+  "name": "njs.event",
+  "title": "NJSEvent",
+  "description": "NJSEvent is a library that provides functions related to JavaScript events used in browsers.",
+  "keywords": [
+    "njs",
+    "event",
+    "njsevent",
+    "javascript",
+    "library",
+    "browser"
+  ],
+  "version": "1.0.0",
+  "main": "dist/njsevent.min.js",
+  "homepage": "https://github.com/a-snail/NJSEvent",
+  "author": {
+    "name": "Jaeo Bok",
+    "email": "snail.bok@gmail.com",
+    "url": "https://twitter.com/snail_bok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-snail/NJSEvent"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-open": "^0.2.3",
+    "qunitjs": "^2.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
