@@ -1,5 +1,5 @@
 /*!
- * NJSEvent v1.0.0
+ * NJSEvent v1.0.1
  * https://github.com/a-snail/NJSEvent
  *
  * Jaeo Bok <snail.bok@gmail.com>
@@ -33,7 +33,7 @@ if (window.njs && !njs.Event) {
         };
 
         var _name     = 'njs.Event',
-            _verBuild = 0,
+            _verBuild = 1,
             _verMajor = 1,
             _verMinor = 0,
             _version  = _verMajor + '.' + _verMinor + '.' + _verBuild;
